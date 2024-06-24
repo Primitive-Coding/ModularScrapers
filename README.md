@@ -1,6 +1,7 @@
 # Modular Scrapers
 
 Collection of modular scrapers.
+Each section below pertains to a folder within "Profiles"
 
 ---
 
@@ -19,7 +20,7 @@ Collection of modular scrapers.
 
 ---
 
-### EquityScraper
+### Equities
 
 - Get annual or quarterly financial statements from Alpha Vantage.
 - _Note_ Requires API key.
