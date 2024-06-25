@@ -20,10 +20,22 @@ Each section below pertains to a folder within "Profiles"
 
 ---
 
+### EarningsEstimates
+
+- Get historical EPS, and predicted EPS by analysts.
+
+---
+
 ### Equities
 
 - Get annual or quarterly financial statements from Alpha Vantage.
 - _Note_ Requires API key.
+
+---
+
+### Filing Dates
+
+- Get the filing dates of the company.
 
 ---
 
@@ -39,3 +51,9 @@ Each section below pertains to a folder within "Profiles"
 ### SEC
 
 - Get information related to a company.
+
+---
+
+### StockPriceYearRange
+
+- Get the stock prices within a specific period of a financial report.
