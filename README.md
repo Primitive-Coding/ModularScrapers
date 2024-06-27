@@ -17,7 +17,7 @@ Each section below pertains to a folder within "Profiles"
    ```
 
 ```
-python analyze_13f.py path/to/xml/file.xml [-n TOP_POSITIONS]
+python 13f.py path/to/xml/file.xml [-n TOP_POSITIONS]
 ```
 
 Replace `path/to/xml/file.xml` with the path to your 13F XML file.
@@ -27,7 +27,7 @@ Optional arguments:
 - `-n TOP_POSITIONS` or `--top-positions TOP_POSITIONS`: Specify the number of top positions to display (default is 20).
 
 Example:
-`python analyze_13f.py filings/13f_filing.xml -n 10`
+`python 13f.py filings/13f_filing.xml -n 10`
 
 ---
 

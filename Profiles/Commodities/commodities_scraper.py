@@ -5,6 +5,8 @@ import os
 # Pandas imports
 import pandas as pd
 
+import yfinance as yf
+
 
 import Profiles.scraper
 
@@ -167,6 +169,12 @@ class CommoditiesScraper(Profiles.scraper.Scraper):
     def get_data(self) -> pd.DataFrame:
         df = pd.DataFrame(commodities)
         return df
+
+    """-----------------------------------"""
+
+    def get_price(self, ticker: str):
+        price = yf.download(ticker.upper())
+        return price
 
     """-----------------------------------"""
 
