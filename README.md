@@ -5,6 +5,32 @@ Each section below pertains to a folder within "Profiles"
 
 ---
 
+### 13F
+
+1. Navigate to the repository:
+   ```
+   cd 13F
+   ```
+2. Install pandas or requirements.txt
+   ```
+   pip install -r requirements.txt
+   ```
+
+```
+python analyze_13f.py path/to/xml/file.xml [-n TOP_POSITIONS]
+```
+
+Replace `path/to/xml/file.xml` with the path to your 13F XML file.
+
+Optional arguments:
+
+- `-n TOP_POSITIONS` or `--top-positions TOP_POSITIONS`: Specify the number of top positions to display (default is 20).
+
+Example:
+`python analyze_13f.py filings/13f_filing.xml -n 10`
+
+---
+
 ### Commodities
 
 - Get information related to commodities.
