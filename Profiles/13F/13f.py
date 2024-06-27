@@ -77,8 +77,11 @@ def main():
     print("\nTotal Value (excluding Put and Call):")
     print(df_filtered["value"].astype(int).sum())
 
-    print("\nTotal Value:")
-    print(df["value"].astype(int).sum())
+    try:
+        print("\nTotal Value:")
+        print(df["value"].astype(int).sum())
+    except OverflowError:
+        pass
 
     print("\nCount of Rows:")
     print(len(df))
@@ -90,3 +93,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+PATH = (
+    "D:/Coding/VisualStudioCode/Projects/PythonV2/ModularScrapers/Profiles/13F/filings"
+)
